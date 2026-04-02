@@ -19,7 +19,7 @@ export default function Footer() {
                 <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Ещё</h3>
                 <a href="#gastro" className="text-white hover:text-amber-400 transition-colors duration-300 text-sm sm:text-base">Гастрономия</a>
                 <a href="#entertainment" className="text-white hover:text-amber-400 transition-colors duration-300 text-sm sm:text-base">История</a>
-                <a href="#entertainment" className="text-white hover:text-amber-400 transition-colors duration-300 text-sm sm:text-base">Развлечения</a>
+                <a href="#booking" className="text-white hover:text-amber-400 transition-colors duration-300 text-sm sm:text-base">Забронировать</a>
               </div>
             </div>
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 sm:gap-0">
