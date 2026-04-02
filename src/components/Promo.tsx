@@ -26,11 +26,11 @@ export default function Promo() {
         </motion.div>
       </div>
 
-      <h3 id="entertainment" className="absolute top-12 left-6 text-white uppercase z-10 text-sm md:text-base lg:text-lg tracking-widest opacity-80">
+      <h3 id="entertainment" className="absolute top-8 sm:top-12 left-4 sm:left-6 text-white uppercase z-10 text-xs sm:text-sm md:text-base lg:text-lg tracking-widest opacity-80">
         История и легенды
       </h3>
 
-      <p className="absolute bottom-12 left-6 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-3xl z-10 leading-tight">
+      <p className="absolute bottom-8 sm:bottom-12 left-4 sm:left-6 right-4 sm:right-auto text-white text-lg sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-full sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-3xl z-10 leading-snug sm:leading-tight">
         2500 лет истории под открытым небом. Греки, скифы, генуэзцы, татары — каждый оставил след, который можно увидеть и прикоснуться.
       </p>
     </div>

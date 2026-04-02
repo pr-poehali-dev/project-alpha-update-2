@@ -13,19 +13,19 @@ export default function Featured() {
   ];
 
   return (
-    <div id="routes" className="bg-white px-6 py-20 lg:py-32">
+    <div id="routes" className="bg-white px-4 sm:px-6 py-12 sm:py-20 lg:py-32">
       <div className="max-w-6xl mx-auto">
-        <div className="mb-16">
-          <h3 className="uppercase mb-4 text-sm tracking-widest text-neutral-400">10 авторских маршрутов</h3>
-          <p className="text-3xl lg:text-5xl mb-4 text-neutral-900 leading-tight font-bold max-w-2xl">
+        <div className="mb-10 sm:mb-16">
+          <h3 className="uppercase mb-3 text-xs sm:text-sm tracking-widest text-neutral-400">10 авторских маршрутов</h3>
+          <p className="text-2xl sm:text-3xl lg:text-5xl mb-3 sm:mb-4 text-neutral-900 leading-tight font-bold max-w-2xl">
             Крым, который хочется открыть снова
           </p>
-          <p className="text-neutral-500 text-lg leading-relaxed max-w-xl">
+          <p className="text-neutral-500 text-base sm:text-lg leading-relaxed max-w-xl">
             Каждый маршрут — смесь истории, легенд и живых впечатлений. От античных руин до горных троп.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
           {routes.map((route) => (
             <div key={route.num} className="group cursor-pointer overflow-hidden">
               <div className="relative overflow-hidden h-64">
@@ -45,17 +45,17 @@ export default function Featured() {
           ))}
         </div>
 
-        <div id="gastro" className="mt-24 flex flex-col lg:flex-row gap-12 items-center">
-          <div className="lg:w-1/2 h-[400px] lg:h-[500px] overflow-hidden">
+        <div id="gastro" className="mt-16 sm:mt-24 flex flex-col lg:flex-row gap-8 sm:gap-12 items-center">
+          <div className="w-full lg:w-1/2 h-[260px] sm:h-[400px] lg:h-[500px] overflow-hidden">
             <img
               src="https://cdn.poehali.dev/projects/b856572b-32a3-446b-bdd1-0504884a282a/files/13a39efb-ba2a-4e20-a1b7-4cc75d6928e8.jpg"
               alt="Крымская кухня"
               className="w-full h-full object-cover"
             />
           </div>
-          <div className="lg:w-1/2">
-            <h3 className="uppercase mb-4 text-sm tracking-widest text-neutral-400">Гастрономия</h3>
-            <p className="text-3xl lg:text-4xl mb-6 text-neutral-900 leading-tight font-bold">
+          <div className="w-full lg:w-1/2">
+            <h3 className="uppercase mb-3 text-xs sm:text-sm tracking-widest text-neutral-400">Гастрономия</h3>
+            <p className="text-2xl sm:text-3xl lg:text-4xl mb-5 sm:mb-6 text-neutral-900 leading-tight font-bold">
               Вкус Крыма — отдельное путешествие
             </p>
             <div className="space-y-4 text-neutral-600">
