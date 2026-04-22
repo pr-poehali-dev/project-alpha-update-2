@@ -1,7 +1,7 @@
 export default function Featured() {
   const routes = [
-    { num: "01", title: "Ялтинская ривьера", desc: "Воронцовский дворец, Ласточкино гнездо, набережная", img: "https://cdn.poehali.dev/projects/b856572b-32a3-446b-bdd1-0504884a282a/files/366e104f-2437-4057-a480-f88a82cedd16.jpg" },
-    { num: "02", title: "Херсонес Таврический", desc: "Античный полис, руины базилик, закат над морем", img: "https://cdn.poehali.dev/projects/b856572b-32a3-446b-bdd1-0504884a282a/files/73cdb062-5dc4-4544-8992-0546c824b92f.jpg" },
+    { num: "01", title: "Ялтинская ривьера", desc: "Воронцовский дворец, Ласточкино гнездо, набережная", img: "https://cdn.poehali.dev/projects/b856572b-32a3-446b-bdd1-0504884a282a/bucket/fdded0a8-4833-4975-841a-06da9964e373.jpg" },
+    { num: "02", title: "Херсонес Таврический", desc: "Античный полис, руины базилик, закат над морем", img: "https://cdn.poehali.dev/projects/b856572b-32a3-446b-bdd1-0504884a282a/bucket/917ad2a3-2bda-40e6-bcac-87000fa0e277.jpg" },
     { num: "03", title: "Горный Крым", desc: "Ай-Петри, Большой каньон, плато Чатыр-Даг", img: "https://cdn.poehali.dev/projects/b856572b-32a3-446b-bdd1-0504884a282a/files/253519ac-e62c-49d3-93db-ce736d54d58e.jpg" },
     { num: "04", title: "Бахчисарай", desc: "Ханский дворец, пещерные города Мангуп и Эски-Кермен", img: "https://cdn.poehali.dev/projects/b856572b-32a3-446b-bdd1-0504884a282a/files/fb82872b-aaeb-491d-8576-102c5e3b9726.jpg" },
     { num: "05", title: "Керченский полуостров", desc: "Гора Митридат, античные некрополи, крепость Ени-Кале", img: "https://cdn.poehali.dev/projects/b856572b-32a3-446b-bdd1-0504884a282a/files/c7dd639d-7c0a-4004-a168-986c970d8c6a.jpg" },
