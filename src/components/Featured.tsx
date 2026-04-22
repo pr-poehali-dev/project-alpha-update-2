@@ -6,10 +6,10 @@ export default function Featured() {
     { num: "04", title: "Бахчисарай", desc: "Ханский дворец, пещерные города Мангуп и Эски-Кермен", img: "https://cdn.poehali.dev/projects/b856572b-32a3-446b-bdd1-0504884a282a/files/fb82872b-aaeb-491d-8576-102c5e3b9726.jpg" },
     { num: "05", title: "Керченский полуостров", desc: "Гора Митридат, античные некрополи, крепость Ени-Кале", img: "https://cdn.poehali.dev/projects/b856572b-32a3-446b-bdd1-0504884a282a/files/c7dd639d-7c0a-4004-a168-986c970d8c6a.jpg" },
     { num: "06", title: "Судакская крепость", desc: "Генуэзская цитадель, мыс Меганом, виноградники", img: "https://cdn.poehali.dev/projects/b856572b-32a3-446b-bdd1-0504884a282a/files/ac2509d7-00e4-44bc-9e87-6f5c00b8e761.jpg" },
-    { num: "07", title: "Феодосия", desc: "Галерея Айвазовского, башня Константина, набережная", img: "https://cdn.poehali.dev/projects/b856572b-32a3-446b-bdd1-0504884a282a/files/a73314ec-b51a-4b6a-b821-daa9feb71300.jpg" },
-    { num: "08", title: "Природные заповедники", desc: "Карадаг, мыс Казантип, степные просторы", img: "https://cdn.poehali.dev/projects/b856572b-32a3-446b-bdd1-0504884a282a/files/84df3ddb-51bd-4819-b594-7528d9d2e97a.jpg" },
+    { num: "07", title: "Феодосия", desc: "Галерея Айвазовского, башня Константина, набережная", img: "https://cdn.poehali.dev/projects/b856572b-32a3-446b-bdd1-0504884a282a/bucket/209ea97f-343e-4178-be11-2854244213d9.png" },
+    { num: "08", title: "Природные заповедники", desc: "Карадаг, мыс Казантип, степные просторы", img: "https://cdn.poehali.dev/projects/b856572b-32a3-446b-bdd1-0504884a282a/bucket/9d128163-966f-4b0d-802d-790449f00c5a.jpg" },
     { num: "09", title: "Коктебель", desc: "Волошинский дом, завод вина «Коктебель», карнавал", img: "https://cdn.poehali.dev/projects/b856572b-32a3-446b-bdd1-0504884a282a/files/46b15a72-3ae1-4ed3-8bf3-a9eb7adc36ca.jpg" },
-    { num: "10", title: "Севастополь", desc: "Балаклавская бухта, Малахов курган, Панорама", img: "https://cdn.poehali.dev/projects/b856572b-32a3-446b-bdd1-0504884a282a/files/32704293-3673-4b31-b435-15a2ab6fdea5.jpg" },
+    { num: "10", title: "Севастополь", desc: "Балаклавская бухта, Малахов курган, Панорама", img: "https://cdn.poehali.dev/projects/b856572b-32a3-446b-bdd1-0504884a282a/bucket/8f0dc947-c285-42cf-b64a-87095b4bbdad.jpg" },
   ];
 
   return (
